@@ -1,0 +1,8 @@
+# Backup files (WinMerge)
+*.bak
+
+# Visual Studio folder
+.vs
+
+# Test outputs
+TestResults
