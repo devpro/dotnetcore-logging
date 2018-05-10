@@ -1,5 +1,7 @@
 # DevPro experiments - Logging in .NET Core
 
+[![Build Status](https://travis-ci.org/devpro/dotnetcore-logging.svg?branch=master)](https://travis-ci.org/devpro/dotnetcore-logging)
+
 The goal of this repository is to provide concrete examples of Logging in .NET Core applications.
 
 ## Serilog
