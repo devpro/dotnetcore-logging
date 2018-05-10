@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Serilog", "1 - Serilog"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - Solution Items", "{98EC7E91-6732-4056-85E8-5B7D8416E81B}"
 	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
 		readme.md = readme.md
 	EndProjectSection
 EndProject
