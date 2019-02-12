@@ -16,7 +16,7 @@ namespace Devpro.DotNetCoreLogging.WebAppWithSerilog
 
             Log.Logger = new LoggerConfiguration()
                .MinimumLevel.Debug()
-               .WriteTo.RedisList("localhost:6379", " Devpro.DotNetCoreLogging.WebAppWithSerilog") // TODO: magic strings, should be in config!
+               .WriteTo.RedisList("localhost:6379", "Devpro.DotNetCoreLogging.WebAppWithSerilog") // TODO: magic strings, should be in config!
                .CreateLogger();
         }
 
