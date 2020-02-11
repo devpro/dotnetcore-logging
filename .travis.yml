@@ -1,6 +1,8 @@
-language: csharp
+﻿language: csharp
 mono: none
-dotnet: 2.0.0
-script:
+dist: xenial
+dotnet: 3.1
+install:
   - dotnet restore
-  - dotnet build ./src/WebAppWithSerilog
+script:
+  - dotnet build

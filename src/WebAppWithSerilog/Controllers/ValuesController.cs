@@ -4,8 +4,9 @@ using Microsoft.Extensions.Logging;
 
 namespace Devpro.DotNetCoreLogging.WebAppWithSerilog.Controllers
 {
+    [ApiController]
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class ValuesController : ControllerBase
     {
         private readonly ILogger<ValuesController> _logger;
 
